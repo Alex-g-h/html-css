@@ -1,0 +1,40 @@
+/* All links style */
+a {
+  color: #333;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+/* Pseudo-selector. State. Element + action/property */
+a:hover {
+  color: orange;
+  font-size: 2rem;
+}
+
+/* a:visited {
+  color: red;
+} */
+
+/* On click */
+a:active {
+  color: blue;
+}
+
+/* .card:hover {
+  background: red;
+} */
+
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.btn:hover {
+  opacity: .8;
+  color: orange;
+}

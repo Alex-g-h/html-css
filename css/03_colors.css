@@ -1,0 +1,21 @@
+.color-1 {
+  color: red;
+}
+
+/* opacity: 0.0 - 1.0*/
+.color-2 {
+  color: rgba(100, 0, 125, 0.2);
+  /* opacity: 0.2; */
+}
+
+.color-3 {
+  color: rgb(125, 100, 97);
+}
+
+.color-4 {
+  color: #FF69B4;
+}
+
+.color-5 {
+  color: #ddd;
+}

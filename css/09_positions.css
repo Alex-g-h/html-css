@@ -1,0 +1,37 @@
+.playground {
+  /* position: absolute; */
+  position: relative;
+  border: 4px solid black;
+  height: 400px;
+  padding: 20px;
+}
+
+.pos-box {
+  /* position: static; */
+  position: fixed;
+  /* fixed for scrolling !!! */
+
+  /* position: absolute; */
+  /* With 'absolute' position: left top right bottom */
+  /* top: 0; */
+  /* left: 0; */
+  bottom: 0;
+  right: 0;
+
+
+  width: 50px;
+  height: 50px;
+  background: coral;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+#header {
+  margin-top: 50px;
+}
